@@ -1,0 +1,43 @@
+.app {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+}
+
+input {
+    padding: 30px 0;
+}
+
+button {
+    font-size: 24px;
+}
+
+input + div {
+    margin: 0 20px 0 30px;
+}
+
+.controls {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font-size: 30px;
+    margin: 40px;
+    justify-content: center;
+}
+
+.controls > div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid cornflowerblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.active {
+    background: cornflowerblue;
+}
